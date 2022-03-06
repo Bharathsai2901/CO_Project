@@ -12,7 +12,6 @@ for1:
     BEQ    x5,x4,lab2
     MULI   x16,x5,4
     LW     x30,x16(arr)
-    SGT    x29,x30,x1
     ADD     x11,x10,x5
     ADDI    x5,x5,1
     JAL    for1
